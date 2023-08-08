@@ -1,0 +1,95 @@
+<div class="main-content">
+    <div class="container-fluid">
+      <div class="card">
+        <div class="card-header card-header-danger"style="background-color: red;">
+            <h2 class="card-title" style="color: rgb(243, 196, 196);">Notifications</h2>
+            <p class="card-category" style="color: rgb(243, 196, 196);">
+              <a target="_blank" href="" style="color: rgb(243, 196, 196);">HII</a>. Please checkout the
+              <a href="" target="_blank" style="color: rgb(243, 196, 196);">full documentation.</a>
+            </p>
+          
+        </div>
+        <div class="card-body">
+          <div class="row">
+            <div class="col-md-6">
+              <h4 class="card-title">Notifications Style</h4>
+  
+              <div class="alert alert-info" style="background-color: rgb(117, 157, 244);">
+                <button mat-button type="button" class="mat-button-lg close" data-dismiss="alert" aria-label="Close" style="background-color: rgb(40, 170, 196);"></button>
+                <span><b>This is a plain notification</b></span>
+              </div>
+              
+              <div class="alert alert-info"style="background-color: rgb(117, 157, 244);">
+                <button mat-button type="button" class="close" data-dismiss="alert" aria-label="Close"></button><span><b>This is a notification with close button</b></span>
+              </div>
+              <div class="alert alert-info alert-with-icon" data-notify="container" style="display: flex; align-items: center;"style="background-color: rgb(117, 157, 244);">
+  <i class="material-icons" data-notify="icon" style="margin-right: 10px;">add_alert</i>
+  <button mat-button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <i class="material-icons"></i>
+  </button>
+  <span style="margin-left: 10px;"><b>This is a notification with close button and icon</b></span>
+</div>
+
+              
+              <div class="alert alert-info alert-with-icon" data-notify="container"style="background-color: rgb(117, 157, 244);">
+                <div style="display: flex; align-items: center;">
+                  <i class="material-icons" data-notify="icon" style="margin-right: 10px;">add_alert</i>
+                  <button mat-button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                    <i class="material-icons"></i>
+                  </button>
+                  <span style="margin-left: 10px;"><b>This is a notification with close button and icon and have many lines you can see that the icon and the close button and have many lines. You can see that the icon and close button are always vertically aligned.This is a beautiful notification.So you have to worry about the style </b></span>
+                </div>
+                <span data-notify="message"></span>
+              </div>
+              
+            </div>
+            <div class="col-md-6">
+              <h4 class="card-title">Notification states</h4>
+              <div class="alert alert-info"style="background-color: rgb(117, 157, 244);">
+                <button mat-button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                  <i class="material-icons"></i> 
+                </button>
+                <span>
+                  <b> Info - </b> ".alert-info"
+                </span>
+              </div>
+              <div class="alert alert-success" style="background-color: green;">
+                <button mat-button type="button" class="close" data-dismiss="alert" aria-label="Close" style="background-color: green;">
+                    <i class="material-icons">close</i>
+                  </button>
+                  
+                <span>
+                  <b> Success - </b> ".alert-success"
+                </span>
+              </div>
+              <div class="alert alert-warning"style="background-color:Yellow;">
+                <button mat-button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                  <i class="material-icons">close</i>
+                </button>
+                <span>
+                  <b> Warning - </b> ".alert-warning"
+                </span>
+              </div>
+              <div class="alert alert-danger" style="background-color:  rgb(237, 98, 98);">
+                <button mat-button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                  <i class="material-icons"></i>
+                </button>
+                <span>
+                  <b> Danger - </b> ".alert-danger"
+                </span>
+              </div>
+              <div class="alert alert-primary" style="background-color: blueviolet;">
+                <button mat-button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                  <i class="material-icons"></i>
+                </button>
+                <span>
+                  <b> Primary - </b> ".alert-primary"
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  

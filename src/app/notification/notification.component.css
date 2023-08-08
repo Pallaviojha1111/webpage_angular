@@ -1,0 +1,36 @@
+.notification-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .page-title {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .notification {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f5f5f5;
+  }
+  
+  .notification-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  
+  .notification-date {
+    font-size: 14px;
+    color: #888;
+  }
+  
+  .notification-content {
+    font-size: 16px;
+    color: #333;
+  }
+  

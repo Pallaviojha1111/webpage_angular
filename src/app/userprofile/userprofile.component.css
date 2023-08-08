@@ -1,0 +1,17 @@
+
+.card-header {
+    position: relative; /* Add this to make the image relative to the card-header */
+  }
+  .oval-button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 50px; /* Use a large value to create an oval shape */
+    font-size: 16px;
+    cursor: pointer;
+    display: block; 
+    margin: 0 auto;
+    /* Add any other styling specific to the button if needed */
+  }
+  
